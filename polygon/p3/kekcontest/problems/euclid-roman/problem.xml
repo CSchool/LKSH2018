@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<problem revision="1" short-name="euclid-roman" url="https://polygon.codeforces.com/p6dxc8H/Alchemist/euclid-roman">
+    <names>
+        <name language="russian" value="Где-то недалеко от Евклида"/>
+    </names>
+    <statements>
+        <statement charset="UTF-8" language="russian" path="statements/russian/problem.tex" type="application/x-tex"/>
+        <statement language="russian" path="statements/.pdf/russian/problem.pdf" type="application/pdf"/>
+        <statement charset="UTF-8" language="russian" path="statements/.html/russian/problem.html" type="text/html"/>
+    </statements>
+    <judging cpu-name="Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz" cpu-speed="3200" input-file="" output-file="">
+        <testset name="tests">
+            <time-limit>1000</time-limit>
+            <memory-limit>268435456</memory-limit>
+            <test-count>116</test-count>
+            <input-path-pattern>tests/%02d</input-path-pattern>
+            <answer-path-pattern>tests/%02d.a</answer-path-pattern>
+            <tests>
+                <test method="manual" sample="true"/>
+                <test cmd="testgen 1" method="generated"/>
+                <test cmd="testgen 2" method="generated"/>
+                <test cmd="testgen 3" method="generated"/>
+                <test cmd="testgen 4" method="generated"/>
+                <test cmd="testgen 5" method="generated"/>
+                <test cmd="testgen 6" method="generated"/>
+                <test cmd="testgen 7" method="generated"/>
+                <test cmd="testgen 8" method="generated"/>
+                <test cmd="testgen 9" method="generated"/>
+                <test cmd="testgen 10" method="generated"/>
+                <test cmd="testgen 11" method="generated"/>
+                <test cmd="testgen 12" method="generated"/>
+                <test cmd="testgen 13" method="generated"/>
+                <test cmd="testgen 14" method="generated"/>
+                <test cmd="testgen 15" method="generated"/>
+                <test cmd="testgen 16" method="generated"/>
+                <test cmd="testgen 17" method="generated"/>
+                <test cmd="testgen 18" method="generated"/>
+                <test cmd="testgen 19" method="generated"/>
+                <test cmd="testgen 20" method="generated"/>
+                <test cmd="testgen 21" method="generated"/>
+                <test cmd="testgen 22" method="generated"/>
+                <test cmd="testgen 23" method="generated"/>
+                <test cmd="testgen 24" method="generated"/>
+                <test cmd="testgen 25" method="generated"/>
+                <test cmd="testgen 26" method="generated"/>
+                <test cmd="testgen 27" method="generated"/>
+                <test cmd="testgen 28" method="generated"/>
+                <test cmd="testgen 29" method="generated"/>
+                <test cmd="testgen 30" method="generated"/>
+                <test cmd="testgen 31" method="generated"/>
+                <test cmd="testgen 32" method="generated"/>
+                <test cmd="testgen 33" method="generated"/>
+                <test cmd="testgen 34" method="generated"/>
+                <test cmd="testgen 35" method="generated"/>
+                <test cmd="testgen 36" method="generated"/>
+                <test cmd="testgen 37" method="generated"/>
+                <test cmd="testgen 38" method="generated"/>
+                <test cmd="testgen 39" method="generated"/>
+                <test cmd="testgen 40" method="generated"/>
+                <test cmd="testgen 41" method="generated"/>
+                <test cmd="testgen 42" method="generated"/>
+                <test cmd="testgen 43" method="generated"/>
+                <test cmd="testgen 44" method="generated"/>
+                <test cmd="testgen 45" method="generated"/>
+                <test cmd="testgen 46" method="generated"/>
+                <test cmd="testgen 47" method="generated"/>
+                <test cmd="testgen 48" method="generated"/>
+                <test cmd="testgen 49" method="generated"/>
+                <test cmd="testgen 50" method="generated"/>
+                <test cmd="testgen 51" method="generated"/>
+                <test cmd="testgen 52" method="generated"/>
+                <test cmd="testgen 53" method="generated"/>
+                <test cmd="testgen 54" method="generated"/>
+                <test cmd="testgen 55" method="generated"/>
+                <test cmd="testgen 56" method="generated"/>
+                <test cmd="testgen 57" method="generated"/>
+                <test cmd="testgen 58" method="generated"/>
+                <test cmd="testgen 59" method="generated"/>
+                <test cmd="testgen 60" method="generated"/>
+                <test cmd="testgen 61" method="generated"/>
+                <test cmd="testgen 62" method="generated"/>
+                <test cmd="testgen 63" method="generated"/>
+                <test cmd="testgen 64" method="generated"/>
+                <test cmd="testgen 65" method="generated"/>
+                <test cmd="testgen 66" method="generated"/>
+                <test cmd="testgen 67" method="generated"/>
+                <test cmd="testgen 68" method="generated"/>
+                <test cmd="testgen 69" method="generated"/>
+                <test cmd="testgen 70" method="generated"/>
+                <test cmd="testgen 71" method="generated"/>
+                <test cmd="testgen 72" method="generated"/>
+                <test cmd="testgen 73" method="generated"/>
+                <test cmd="testgen 74" method="generated"/>
+                <test cmd="testgen 75" method="generated"/>
+                <test cmd="testgen 76" method="generated"/>
+                <test cmd="testgen 77" method="generated"/>
+                <test cmd="testgen 78" method="generated"/>
+                <test cmd="testgen 79" method="generated"/>
+                <test cmd="testgen 80" method="generated"/>
+                <test cmd="testgen 81" method="generated"/>
+                <test cmd="testgen 82" method="generated"/>
+                <test cmd="testgen 83" method="generated"/>
+                <test cmd="testgen 84" method="generated"/>
+                <test cmd="testgen 85" method="generated"/>
+                <test cmd="testgen 86" method="generated"/>
+                <test cmd="testgen 87" method="generated"/>
+                <test cmd="testgen 88" method="generated"/>
+                <test cmd="testgen 89" method="generated"/>
+                <test cmd="testgen 90" method="generated"/>
+                <test cmd="testgen 91" method="generated"/>
+                <test cmd="testgen 92" method="generated"/>
+                <test cmd="testgen 93" method="generated"/>
+                <test cmd="testgen 94" method="generated"/>
+                <test cmd="testgen 95" method="generated"/>
+                <test cmd="testgen 96" method="generated"/>
+                <test cmd="testgen 97" method="generated"/>
+                <test cmd="testgen 98" method="generated"/>
+                <test cmd="testgen 99" method="generated"/>
+                <test cmd="testgen 100" method="generated"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+            </tests>
+        </testset>
+    </judging>
+    <files>
+        <resources>
+            <file path="files/olymp.sty"/>
+            <file path="files/problem.tex"/>
+            <file path="files/statements.ftl"/>
+            <file path="files/testlib.h" type="h.g++"/>
+        </resources>
+        <executables>
+            <executable>
+                <source path="files/checker.cpp" type="cpp.g++17"/>
+                <binary path="files/checker.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/testgen.cpp" type="cpp.g++17"/>
+                <binary path="files/testgen.exe" type="exe.win32"/>
+            </executable>
+        </executables>
+    </files>
+    <assets>
+        <checker type="testlib">
+            <source path="files/checker.cpp" type="cpp.g++17"/>
+            <binary path="check.exe" type="exe.win32"/>
+            <copy path="check.cpp" type="cpp.g++17"/>
+            <testset>
+                <test-count>0</test-count>
+                <input-path-pattern>files/tests/checker-tests/%02d</input-path-pattern>
+                <output-path-pattern>files/tests/checker-tests/%02d.o</output-path-pattern>
+                <answer-path-pattern>files/tests/checker-tests/%02d.a</answer-path-pattern>
+                <tests/>
+            </testset>
+        </checker>
+        <solutions>
+            <solution tag="main">
+                <source path="solutions/solver.cpp" type="cpp.g++17"/>
+                <binary path="solutions/solver.exe" type="exe.win32"/>
+            </solution>
+        </solutions>
+    </assets>
+    <properties>
+        <property name="tests-wellformed" value="true"/>
+    </properties>
+    <stresses>
+        <stress-count>0</stress-count>
+        <stress-path-pattern>stresses/%03d</stress-path-pattern>
+        <list/>
+    </stresses>
+</problem>

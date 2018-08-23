@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<problem revision="1" short-name="guess-number" url="https://polygon.codeforces.com/p0BZZgi/Alchemist/guess-number">
+    <names>
+        <name language="russian" value="Задача про Наталью Владимировну"/>
+    </names>
+    <statements>
+        <statement charset="UTF-8" language="russian" path="statements/russian/problem.tex" type="application/x-tex"/>
+        <statement language="russian" path="statements/.pdf/russian/problem.pdf" type="application/pdf"/>
+        <statement charset="UTF-8" language="russian" path="statements/.html/russian/problem.html" type="text/html"/>
+    </statements>
+    <judging cpu-name="Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz" cpu-speed="3200" input-file="" output-file="">
+        <testset name="tests">
+            <time-limit>1000</time-limit>
+            <memory-limit>268435456</memory-limit>
+            <test-count>101</test-count>
+            <input-path-pattern>tests/%02d</input-path-pattern>
+            <answer-path-pattern>tests/%02d.a</answer-path-pattern>
+            <tests>
+                <test method="manual" sample="true"/>
+                <test cmd="guess_gen 0 0" method="generated"/>
+                <test cmd="guess_gen 0 1" method="generated"/>
+                <test cmd="guess_gen 0 2" method="generated"/>
+                <test cmd="guess_gen 0 3" method="generated"/>
+                <test cmd="guess_gen 0 4" method="generated"/>
+                <test cmd="guess_gen 0 5" method="generated"/>
+                <test cmd="guess_gen 0 6" method="generated"/>
+                <test cmd="guess_gen 0 7" method="generated"/>
+                <test cmd="guess_gen 0 8" method="generated"/>
+                <test cmd="guess_gen 0 9" method="generated"/>
+                <test cmd="guess_gen 1 0" method="generated"/>
+                <test cmd="guess_gen 1 1" method="generated"/>
+                <test cmd="guess_gen 1 2" method="generated"/>
+                <test cmd="guess_gen 1 3" method="generated"/>
+                <test cmd="guess_gen 1 4" method="generated"/>
+                <test cmd="guess_gen 1 5" method="generated"/>
+                <test cmd="guess_gen 1 6" method="generated"/>
+                <test cmd="guess_gen 1 7" method="generated"/>
+                <test cmd="guess_gen 1 8" method="generated"/>
+                <test cmd="guess_gen 1 9" method="generated"/>
+                <test cmd="guess_gen 2 0" method="generated"/>
+                <test cmd="guess_gen 2 1" method="generated"/>
+                <test cmd="guess_gen 2 2" method="generated"/>
+                <test cmd="guess_gen 2 3" method="generated"/>
+                <test cmd="guess_gen 2 4" method="generated"/>
+                <test cmd="guess_gen 2 5" method="generated"/>
+                <test cmd="guess_gen 2 6" method="generated"/>
+                <test cmd="guess_gen 2 7" method="generated"/>
+                <test cmd="guess_gen 2 8" method="generated"/>
+                <test cmd="guess_gen 2 9" method="generated"/>
+                <test cmd="guess_gen 3 0" method="generated"/>
+                <test cmd="guess_gen 3 1" method="generated"/>
+                <test cmd="guess_gen 3 2" method="generated"/>
+                <test cmd="guess_gen 3 3" method="generated"/>
+                <test cmd="guess_gen 3 4" method="generated"/>
+                <test cmd="guess_gen 3 5" method="generated"/>
+                <test cmd="guess_gen 3 6" method="generated"/>
+                <test cmd="guess_gen 3 7" method="generated"/>
+                <test cmd="guess_gen 3 8" method="generated"/>
+                <test cmd="guess_gen 3 9" method="generated"/>
+                <test cmd="guess_gen 4 0" method="generated"/>
+                <test cmd="guess_gen 4 1" method="generated"/>
+                <test cmd="guess_gen 4 2" method="generated"/>
+                <test cmd="guess_gen 4 3" method="generated"/>
+                <test cmd="guess_gen 4 4" method="generated"/>
+                <test cmd="guess_gen 4 5" method="generated"/>
+                <test cmd="guess_gen 4 6" method="generated"/>
+                <test cmd="guess_gen 4 7" method="generated"/>
+                <test cmd="guess_gen 4 8" method="generated"/>
+                <test cmd="guess_gen 4 9" method="generated"/>
+                <test cmd="guess_gen 5 0" method="generated"/>
+                <test cmd="guess_gen 5 1" method="generated"/>
+                <test cmd="guess_gen 5 2" method="generated"/>
+                <test cmd="guess_gen 5 3" method="generated"/>
+                <test cmd="guess_gen 5 4" method="generated"/>
+                <test cmd="guess_gen 5 5" method="generated"/>
+                <test cmd="guess_gen 5 6" method="generated"/>
+                <test cmd="guess_gen 5 7" method="generated"/>
+                <test cmd="guess_gen 5 8" method="generated"/>
+                <test cmd="guess_gen 5 9" method="generated"/>
+                <test cmd="guess_gen 6 0" method="generated"/>
+                <test cmd="guess_gen 6 1" method="generated"/>
+                <test cmd="guess_gen 6 2" method="generated"/>
+                <test cmd="guess_gen 6 3" method="generated"/>
+                <test cmd="guess_gen 6 4" method="generated"/>
+                <test cmd="guess_gen 6 5" method="generated"/>
+                <test cmd="guess_gen 6 6" method="generated"/>
+                <test cmd="guess_gen 6 7" method="generated"/>
+                <test cmd="guess_gen 6 8" method="generated"/>
+                <test cmd="guess_gen 6 9" method="generated"/>
+                <test cmd="guess_gen 7 0" method="generated"/>
+                <test cmd="guess_gen 7 1" method="generated"/>
+                <test cmd="guess_gen 7 2" method="generated"/>
+                <test cmd="guess_gen 7 3" method="generated"/>
+                <test cmd="guess_gen 7 4" method="generated"/>
+                <test cmd="guess_gen 7 5" method="generated"/>
+                <test cmd="guess_gen 7 6" method="generated"/>
+                <test cmd="guess_gen 7 7" method="generated"/>
+                <test cmd="guess_gen 7 8" method="generated"/>
+                <test cmd="guess_gen 7 9" method="generated"/>
+                <test cmd="guess_gen 8 0" method="generated"/>
+                <test cmd="guess_gen 8 1" method="generated"/>
+                <test cmd="guess_gen 8 2" method="generated"/>
+                <test cmd="guess_gen 8 3" method="generated"/>
+                <test cmd="guess_gen 8 4" method="generated"/>
+                <test cmd="guess_gen 8 5" method="generated"/>
+                <test cmd="guess_gen 8 6" method="generated"/>
+                <test cmd="guess_gen 8 7" method="generated"/>
+                <test cmd="guess_gen 8 8" method="generated"/>
+                <test cmd="guess_gen 8 9" method="generated"/>
+                <test cmd="guess_gen 9 0" method="generated"/>
+                <test cmd="guess_gen 9 1" method="generated"/>
+                <test cmd="guess_gen 9 2" method="generated"/>
+                <test cmd="guess_gen 9 3" method="generated"/>
+                <test cmd="guess_gen 9 4" method="generated"/>
+                <test cmd="guess_gen 9 5" method="generated"/>
+                <test cmd="guess_gen 9 6" method="generated"/>
+                <test cmd="guess_gen 9 7" method="generated"/>
+                <test cmd="guess_gen 9 8" method="generated"/>
+                <test cmd="guess_gen 9 9" method="generated"/>
+            </tests>
+        </testset>
+    </judging>
+    <files>
+        <resources>
+            <file path="files/olymp.sty"/>
+            <file path="files/problem.tex"/>
+            <file path="files/statements.ftl"/>
+            <file path="files/testlib.h" type="h.g++"/>
+        </resources>
+        <executables>
+            <executable>
+                <source path="files/guess_gen.cpp" type="cpp.g++17"/>
+                <binary path="files/guess_gen.exe" type="exe.win32"/>
+            </executable>
+        </executables>
+    </files>
+    <assets>
+        <checker name="std::lcmp.cpp" type="testlib">
+            <source path="files/check.cpp" type="cpp.g++17"/>
+            <binary path="check.exe" type="exe.win32"/>
+            <copy path="check.cpp"/>
+            <testset>
+                <test-count>0</test-count>
+                <input-path-pattern>files/tests/checker-tests/%02d</input-path-pattern>
+                <output-path-pattern>files/tests/checker-tests/%02d.o</output-path-pattern>
+                <answer-path-pattern>files/tests/checker-tests/%02d.a</answer-path-pattern>
+                <tests/>
+            </testset>
+        </checker>
+        <solutions>
+            <solution tag="main">
+                <source path="solutions/guess.cpp" type="cpp.g++17"/>
+                <binary path="solutions/guess.exe" type="exe.win32"/>
+            </solution>
+        </solutions>
+    </assets>
+    <properties>
+        <property name="tests-wellformed" value="true"/>
+    </properties>
+    <stresses>
+        <stress-count>0</stress-count>
+        <stress-path-pattern>stresses/%03d</stress-path-pattern>
+        <list/>
+    </stresses>
+</problem>

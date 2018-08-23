@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<contest url="https://polygon.codeforces.com/c/9188">
+    <names>
+        <name language="russian" value="ЛКШ 2018 --- Группа П3 --- Тренировка 07"/>
+    </names>
+    <statements>
+        <statement language="russian" type="application/pdf" url="https://polygon.codeforces.com/c/9188/russian/statements.pdf"/>
+    </statements>
+    <problems>
+        <problem index="a" url="https://polygon.codeforces.com/p8NwqZx/TsarN/game-dates"/>
+        <problem index="b" url="https://polygon.codeforces.com/p9Y3O20/TsarN/game-multiplication"/>
+    </problems>
+</contest>
